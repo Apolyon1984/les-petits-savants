@@ -1,1 +1,1 @@
-export const Button = ({ children, ...props }) => <button {...props}>{children}</button>;
+export const Button = ({ children, ...props }) => <button className='bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded' {...props}>{children}</button>;
